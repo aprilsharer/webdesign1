@@ -1,0 +1,158 @@
+<style>/* General body styling */
+
+body {
+  font-family:"Thasadith", sans-serif;
+  color: #333; 
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; 
+}
+
+/* Styling for headers */
+header {
+  background-color: #2596be; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #be2596; 
+}
+
+/* Navigation styling */
+nav {
+  background-color: #96be25; 
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid white; 
+  margin: 5px;
+  display: inline-block;
+	font-family:"Thasadith", sans-serif;
+	
+}
+
+nav a:hover {
+  background-color: #be2596; 
+  border-color: #2596be; 
+	text-align: center
+}
+/* Unvisited link */
+a:link {
+  color: white;
+}
+
+/* Visited link */
+a:visited {
+  color: #2F2F2F;
+}
+
+/* Mouse over link */
+a:hover {
+  color: #2F2F2F;
+}
+
+/* Selected link */
+a:active {
+  color: #be2596;
+}
+
+
+/* Main content area */
+main {
+  padding: 5px;
+}
+
+.float-container {
+  overflow: hidden; 
+}
+
+.float-left {
+  float: left;
+  width: 100%;
+  margin-right: 5%;
+  padding: 10px;
+  background-color: white;
+}
+
+.float-right {
+  float: right;
+  width: 45%;
+  border: 3px solid #be2596; 
+  padding: 10px;
+  background-color: white;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content p {
+  border: 1px solid #96be25; 
+  padding: 10px;
+  background-color: #fff; 
+  font-family: Impact, sans-serif; 
+  margin: 10px 0;
+}
+
+.container > .child {
+  border: 2px dashed #be2596; 
+  padding: 15px;
+  background-color: #fff; 
+}
+
+/* Header styling */
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 500%;
+		color:#be2596;
+}
+
+h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+	color:white;
+	font-size:200%;
+}
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 300%;
+		color:#be2596;
+	text-align: center;
+	float:inherit;
+}
+
+h4{
+  font-family: "Thasadith", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+	text-align: center;
+    font-size: 100%;
+    color:#2596be;
+	padding: 0px;
+	padding-left:0px;
+	padding-right:0px;
+	float:left;
+}
+
+p { 
+  font-family: "Thasadith", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+	text-align: center;
+    font-size: 100%;
+    color:#2596be;
+	padding: 0px;
+	padding-left:50px;
+	padding-right:50px;
+	float:left;
+}
