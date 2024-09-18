@@ -3,7 +3,7 @@
 body {
   font-family:"Thasadith", sans-serif;
   color: #333; 
-  margin: 0;
+  margin: 10px;
   padding: 0;
   background-color: #f0f0f0; 
 }
@@ -13,14 +13,18 @@ header {
   background-color: #2596be; 
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   border-bottom: 5px solid #be2596; 
 }
 
 /* Navigation styling */
 nav {
   background-color: #96be25; 
-  padding: 10px;
+  padding: 10px 0;
+	margin:0 auto;
+	justify-content: center;
+	gap: 20px;
+	display:flex;
 }
 
 nav a {
@@ -28,7 +32,7 @@ nav a {
   text-decoration: none;
   padding: 10px;
   border: 2px solid white; 
-  margin: 5px;
+  margin:10px 20px 10px 20px;
   display: inline-block;
 	font-family:"Thasadith", sans-serif;
 	
@@ -69,21 +73,7 @@ main {
   overflow: hidden; 
 }
 
-.float-left {
-  float: left;
-  width: 100%;
-  margin-right: 5%;
-  padding: 10px;
-  background-color: white;
-}
 
-.float-right {
-  float: right;
-  width: 45%;
-  border: 3px solid #be2596; 
-  padding: 10px;
-  background-color: white;
-}
 
 .clearfix::after {
   content: "";
@@ -112,6 +102,7 @@ h1 {
   font-style: normal;
     font-size: 500%;
 		color:#be2596;
+	text-align:center;
 }
 
 h2 {
@@ -120,6 +111,7 @@ h2 {
   font-style: normal;
 	color:white;
 	font-size:200%;
+	text-align:center;
 }
 h3 {
     font-family: "Bebas Neue", sans-serif;
@@ -128,7 +120,7 @@ h3 {
     font-size: 300%;
 		color:#be2596;
 	text-align: center;
-	float:inherit;
+	margin-bottom: 5px;
 }
 
 h4{
@@ -141,7 +133,7 @@ h4{
 	padding: 0px;
 	padding-left:0px;
 	padding-right:0px;
-	float:left;
+	margin-top: 5px;
 }
 
 p { 
@@ -150,9 +142,16 @@ p {
   font-style: bold;
 	text-align: center;
     font-size: 100%;
-    color:#2596be;
+    color:#be2596 ;
 	padding: 0px;
-	padding-left:50px;
-	padding-right:50px;
-	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin:0 auto;
 }
+
+article {
+	text-align: center;
+	margin:0 auto;
+	margin:20px 20px 20px 20px;
+}
+
